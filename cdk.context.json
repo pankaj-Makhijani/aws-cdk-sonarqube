@@ -1,0 +1,32 @@
+{
+  "availability-zones:account=634976661107:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ],
+  "availability-zones:account=634976661107:region=ap-south-1": [
+    "ap-south-1a",
+    "ap-south-1b",
+    "ap-south-1c"
+  ],
+  "vpc-provider:account=634976661107:filter.tag:Name=sonarqube-vpc:region=ap-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-00ef69405f4f82cd0",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "ownerAccountId": "634976661107",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "public-subnet",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0c247fe48f68fc7c7",
+            "cidr": "10.0.0.0/24",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-05712a3a00bc11edc"
+          }
+        ]
+      }
+    ]
+  }
+}
