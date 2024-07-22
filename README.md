@@ -70,7 +70,7 @@ cdk deploy Sonarqube-stack
 <br>Copy the Elastic IP address from the output of the Sonarqube-stack deployment and navigate to http://<ELASTIC_IP>:9000. Use the default credentials (username: admin, password: admin) to log in.
 
 ## Explaination
-Please refer this Blog for more detailed information about the CDK script
+Please refer [this](https://itzzpankaj004.medium.com/how-to-set-up-sonarqube-on-aws-cloud-in-minutes-with-aws-cdk-0d3e849d8dfa) Blog for more detailed information about the CDK script
 
 ## Contribution
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
